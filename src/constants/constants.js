@@ -43,7 +43,7 @@ export const projects = [
     source: 'https://github.com/ishikaa-2302/Online-CV',
     visit: 'https://online-resume-doc.netlify.app/',
     id: 4,
-  }
+  },
   {
     title: 'To-do List',
     description: "A fully-responsive simple to-do list that lets you add/delete/update the tasks. It is a full stack application which uses MERN Stack to perform CRUD(Create,Read,Update and Delete) Operations.",
