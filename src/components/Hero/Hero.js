@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
       Hi! I'm Ishika Gupta, an aspiring MERN stack developer and a Competitive-Programming Enthausiast. I like to build and learn new things simultaneously.
       </SectionText>
-      <Button><LinkItem href="https://docs.google.com/document/d/17Vosyws0AKfrCEt4MmpMktTGW-eIkwQo1T_KjUNj4vs/edit?usp=sharing" target="_blank"></LinkItem>Know More</Button>
+      <Button onClick={() => window.location = '#about'}>Know More</Button>
     </LeftSection>
   </Section>
 );
