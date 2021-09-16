@@ -13,8 +13,8 @@ export const projects = [
     description: "An interactive and fully responsive quiz-app based on the famous TV series, 'Friends'",
     image: '/images/2.png',
     tags: ['jQuery', 'JavaScript'],
-    source: 'https://github.com/ishikaa-2302/Friends_quiz',
     visit: 'https://friends-show-quiz-app.netlify.app/',
+    souce: 'https://github.com/ishikaa-2302/Friends_quiz',
     id: 1,
   },
   {
@@ -27,13 +27,22 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Calcluator',
-    description: "A fully responsive calculator with neumorphism effect",
-    image: '/images/3.png',
-    tags: ['JS', 'Bootstrap','Design'],
-    source: 'https://github.com/ishikaa-2302/Calculator',
-    visit: 'https://basic-calculator-ui.netlify.app/',
-    id: 3,
+    title: 'To-do List',
+    description: "A fully-responsive simple to-do list that lets you add/delete/update the tasks. It is a full stack application which uses MERN Stack to perform CRUD(Create,Read,Update and Delete) Operations.",
+    image: '/images/interface.png',
+    tags: ['MongoDb','Express','React','NodeJs'],
+    source: 'https://github.com/ishikaa-2302/todo-list',
+    visit: 'https://github.com/ishikaa-2302/todo-list',
+    id: 5
+  },
+  {
+    title: 'Covid Tracker',
+    description: "An application to track covid cases across the globe by making API Calls and displaying live results",
+    image: '/images/5.png',
+    tags: ['Axios','Material-UI','ChartJS','Data Visualisation'],
+    source: 'https://github.com/ishikaa-2302/corona-track',
+    visit: 'https://covid-tracking-web.netlify.app/',
+    id: 6,
   },
   {
     title: 'Online CV',
@@ -45,14 +54,15 @@ export const projects = [
     id: 4,
   },
   {
-    title: 'To-do List',
-    description: "A fully-responsive simple to-do list that lets you add/delete/update the tasks. It is a full stack application which uses MERN Stack to perform CRUD(Create,Read,Update and Delete) Operations.",
-    image: '/images/interface.png',
-    tags: ['MongoDb','Express','React','NodeJs'],
-    source: 'https://github.com/ishikaa-2302/todo-list',
-    visit: 'https://github.com/ishikaa-2302/todo-list',
-    id: 5
+    title: 'Calcluator',
+    description: "A fully responsive calculator with neumorphism effect",
+    image: '/images/3.png',
+    tags: ['JS', 'Bootstrap','Design'],
+    source: 'https://github.com/ishikaa-2302/Calculator',
+    visit: 'https://basic-calculator-ui.netlify.app/',
+    id: 3,
   }
+ 
 ];
 
 export const TimeLineData = [
